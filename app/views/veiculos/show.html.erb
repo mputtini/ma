@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Placa:</strong>
+  <%= @veiculo.placa %>
+</p>
+
+<p>
+  <strong>Modelo:</strong>
+  <%= @veiculo.modelo %>
+</p>
+
+<p>
+  <strong>Anofabricacao:</strong>
+  <%= @veiculo.anofabricacao %>
+</p>
+
+<p>
+  <strong>Categoria:</strong>
+  <%= @veiculo.categoria %>
+</p>
+
+<%= link_to 'Edit', edit_veiculo_path(@veiculo) %> |
+<%= link_to 'Back', veiculos_path %>
